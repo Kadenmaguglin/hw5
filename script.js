@@ -1,8 +1,8 @@
 //handling all the moment calculations
 const m = moment();
 
-console.log(m.format("[Today's Date: ]ddd MMM Mo YYYY"));
-$("#todaysDate").text(m.format("[Today's Date: ]dddd MMM Mo YYYY"));
+console.log(m.format("[Today's Date: ]ddd MMM Do YYYY"));
+$("#todaysDate").text(m.format("[Today's Date: ]dddd MMM Do YYYY"));
 displayTime();
 function displayTime(){
 const nm = moment();
