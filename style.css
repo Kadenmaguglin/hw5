@@ -1,1 +1,57 @@
+.heading{
+text-align: center;
+}
 
+.description{
+    text-align: center;
+}
+
+.currentDay{
+    text-align: center;
+}
+
+.hr{
+    border: 5px solid red;
+}
+
+.hour{
+    background-color:lightskyblue;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    margin-left: 60px;
+    height:60px;
+}
+
+.textField{
+    background-color:lightskyblue;
+    margin-right:30px;
+    margin-left:30px;   
+}
+.save-btn{
+    background-color:red;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+.clearBtn{
+    background-color:red;
+    border-radius:15px;
+    height: 60px;
+    width: 180px;
+    margin-left:45px;
+    
+}.clearBtnText{
+    text-align: center;
+    padding-top:10px;
+}
+
+.hourAndSave{
+    text-align: center;
+    padding-top:10px;
+}
+
+.textarea{
+    margin-top:5px;
+background-color: lightgrey;
+border:none;
+resize:none;
+}
